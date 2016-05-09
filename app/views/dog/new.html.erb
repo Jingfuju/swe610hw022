@@ -1,0 +1,6 @@
+<h1>Add New Dog Members in Database</h1>
+  <%= form_for @dog do |d| %>
+    Name: <%= d.text_field :name %> 
+    Age: <%= d.text_field :age %>
+    <%= d.submit %> 
+  <% end %>
